@@ -4,6 +4,8 @@
     android:background="@color/colorFundoSplash"
     android:layout_height="match_parent">
 
+
+
     <include layout="@layout/activity_resister"/>
 
 </ScrollView>
