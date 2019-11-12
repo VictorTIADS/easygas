@@ -7,6 +7,6 @@ class ResisterActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.resister_scroll_activity)
+        setContentView(R.layout.masterresister_layout)
     }
 }

@@ -7,6 +7,8 @@
     <color name="colorWhiteCream">#F4E6DB</color>
     <color name="colorWhiteCreamTransp">#99F4E6DB</color>
     <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhiteTasp">#88FFFFFF</color>
     <color name="colorBlack">#000000</color>
+    <color name="colorYellowDarck">#B47337</color>
 
 </resources>
