@@ -3,5 +3,10 @@
     <string name="go_to_map">Olhar Mapa</string>
     <string name="sign_in">Fazer Login</string>
     <string name="powerd_by">Powered By Pernambuco Soluções</string>
-    <string name="sign_up">Não possui cadastro?</string>
+    <string name="sign_up"><u>Não possui cadastro?</u></string>
+    <string name="name">Nome:</string>
+    <string name="email">Email:</string>
+    <string name="password">Senha:</string>
+    <string name="confirm_password">Confirmar Senha:</string>
+    <string name="sign_up_user">Cadastrar</string>
 </resources>
