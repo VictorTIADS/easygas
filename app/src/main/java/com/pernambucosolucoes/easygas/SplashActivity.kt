@@ -14,5 +14,8 @@ class SplashActivity : AppCompatActivity() {
         lblSignUpUserGoToForm.setOnClickListener {
             startActivity(Intent(this,ResisterActivity::class.java))
         }
+        btn_login.setOnClickListener {
+            startActivity(Intent(this,LoginActivity::class.java))
+        }
     }
 }

@@ -9,4 +9,10 @@
     <string name="password">Senha:</string>
     <string name="confirm_password">Confirmar Senha:</string>
     <string name="sign_up_user">Cadastrar</string>
+    <string name="user">Usuário</string>
+    <string name="password_without_point">Senha</string>
+    <string name="hint_type_your_email">Digite seu email</string>
+    <string name="hint_type_your_password">Digite a sua senha</string>
+    <string name="sign_in_button">Login</string>
+    <string name="login_or">Or</string>
 </resources>

@@ -7,7 +7,7 @@
     android:layout_marginEnd="8dp"
     android:layout_marginStart="2dp"
     app:titleTextColor="@color/colorWhite"
-    app:title="Cadastrar"
+    app:title="Title"
     android:background="@drawable/toolbardrawabletext"
     android:orientation="horizontal"/>
 
