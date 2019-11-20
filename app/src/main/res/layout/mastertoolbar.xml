@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/master_tool_bar"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
     android:orientation="horizontal">
 
-    <include layout="@layout/toolbar" />
+    <include layout="@layout/toolbar_left" />
+    <include layout="@layout/toolbartext_right"/>
 
-    <include layout="@layout/toolbartext"/>
-
-</LinearLayout>
+</androidx.appcompat.widget.Toolbar>
