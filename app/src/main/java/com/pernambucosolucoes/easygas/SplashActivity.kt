@@ -17,5 +17,8 @@ class SplashActivity : AppCompatActivity() {
         btn_login.setOnClickListener {
             startActivity(Intent(this,LoginActivity::class.java))
         }
+        btn_go_to_map.setOnClickListener {
+            startActivity(Intent(this, MapActivity::class.java))
+        }
     }
 }

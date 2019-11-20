@@ -3,6 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.pernambucosolucoes.easygas">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -11,9 +14,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme_Splash"
-        tools:ignore="GoogleAppIndexingWarning">
+        android:usesCleartextTraffic="true">
 
-
+        <activity
+            android:name=".MapActivity"
+            android:parentActivityName=".SplashActivity"
+            android:theme="@style/AppTheme_Map">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SplashActivity" />
+        </activity>
         <activity
             android:name=".LoginActivity"
             android:parentActivityName=".SplashActivity">
@@ -21,8 +31,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".SplashActivity" />
         </activity>
-
-
         <activity
             android:name=".ResisterActivity"
             android:parentActivityName=".SplashActivity">
@@ -30,9 +38,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".SplashActivity" />
         </activity>
-
-
-
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
