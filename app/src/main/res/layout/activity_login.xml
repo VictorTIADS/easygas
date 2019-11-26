@@ -40,10 +40,11 @@
         android:inputType="textPersonName"
         android:maxLength="40"
         android:maxLines="1"
+        android:textSize="15dp"
         android:paddingStart="15dp"
         android:paddingEnd="15dp"
         android:textColor="@color/colorWhite"
-        android:textColorHint="@color/colorWhite"
+        android:textColorHint="@color/colorWhiteTasp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/lbl_login_user" />
@@ -75,9 +76,10 @@
         android:maxLength="40"
         android:maxLines="1"
         android:paddingStart="15dp"
+        android:textSize="15dp"
         android:paddingEnd="15dp"
         android:textColor="@color/colorWhite"
-        android:textColorHint="@color/colorWhite"
+        android:textColorHint="@color/colorWhiteTasp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/lbl_login_password" />
@@ -100,11 +102,11 @@
         android:id="@+id/login_line1"
         android:layout_width="130dp"
         android:layout_height="1dp"
-        android:layout_marginStart="48dp"
         android:layout_marginTop="36dp"
         android:background="@color/colorWhite"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/login_or"
         app:layout_constraintTop_toBottomOf="@id/btn_login_sign_in_user" />
 
     <TextView
@@ -118,6 +120,7 @@
         android:textSize="15dp"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toEndOf="@+id/login_line1"
+        app:layout_constraintEnd_toStartOf="@id/login_line2"
         app:layout_constraintTop_toBottomOf="@+id/btn_login_sign_in_user" />
 
     <TextView
@@ -130,6 +133,7 @@
         android:background="@color/colorWhite"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toEndOf="@+id/login_or"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_login_sign_in_user" />
 
     <com.shaishavgandhi.loginbuttons.GoogleButton
